@@ -71,10 +71,10 @@ public class TestCase extends BasePage {
         Assert.assertEquals(el10.getText().toString(),"Nothing to see here");
 
     }
-    //@AfterTest
-    //public void tearDown()
-    //{
-        //driver.quit();
-    //}
+    @AfterTest
+    public void tearDown()
+    {
+        driver.quit();
+    }
 }
 
