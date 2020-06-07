@@ -53,8 +53,9 @@ public class TestCase extends BasePage {
         // click on item add button
         el6.click();
         Thread.sleep(2000);
-        // click in item add button
+        // click on item add button
         el6.click();
+		// click on item text
         el7.click();
         Thread.sleep(2000);
         //click on view cart icon
